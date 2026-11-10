@@ -1,0 +1,111 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-serif: 'Cormorant Garamond', Georgia, serif;
+    --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+
+    /* Color principal llamativo: Rubí Imperial / Borgoña de Lujo (reemplazo del negro) */
+    --color-primary: #58111A;
+    --color-primary-dark: #3E0B12;
+    --color-primary-light: #751724;
+    --color-primary-accent: #8E1D2D;
+    --color-primary-subtle: #FAF0F2;
+
+    --color-gold: #C6A15B;
+    --color-gold-hover: #B5924D;
+  }
+
+  body[data-theme="rubi"],
+  body:not([data-theme]) {
+    --color-primary: #58111A;
+    --color-primary-dark: #3E0B12;
+    --color-primary-light: #751724;
+    --color-primary-accent: #8E1D2D;
+    --color-primary-subtle: #FAF0F2;
+  }
+
+  body[data-theme="esmeralda"] {
+    --color-primary: #0B3B2C;
+    --color-primary-dark: #072B20;
+    --color-primary-light: #125741;
+    --color-primary-accent: #197055;
+    --color-primary-subtle: #F0F8F5;
+  }
+
+  body[data-theme="zafiro"] {
+    --color-primary: #0F2A52;
+    --color-primary-dark: #091C37;
+    --color-primary-light: #163B72;
+    --color-primary-accent: #1D4B8E;
+    --color-primary-subtle: #F0F4FA;
+  }
+
+  body[data-theme="amatista"] {
+    --color-primary: #4A1238;
+    --color-primary-dark: #340B26;
+    --color-primary-light: #671A4F;
+    --color-primary-accent: #7E2261;
+    --color-primary-subtle: #FBF2F7;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: #F8F5EF;
+    color: #171717;
+  }
+
+  h1, h2, h3, .font-serif {
+    font-family: var(--font-serif);
+  }
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #F8F5EF;
+}
+::-webkit-scrollbar-thumb {
+  background: #E9DFCF;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #C6A15B;
+}
+
+/* Tabular figures for prices */
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Clases utilitarias dinámicas del color principal llamativo */
+.bg-brand-primary {
+  background-color: var(--color-primary) !important;
+}
+.bg-brand-dark {
+  background-color: var(--color-primary-dark) !important;
+}
+.bg-brand-light {
+  background-color: var(--color-primary-light) !important;
+}
+.bg-brand-subtle {
+  background-color: var(--color-primary-subtle) !important;
+}
+.text-brand-primary {
+  color: var(--color-primary) !important;
+}
+.border-brand-primary {
+  border-color: var(--color-primary) !important;
+}
+.hover\:bg-brand-primary:hover {
+  background-color: var(--color-primary) !important;
+}
+.hover\:bg-brand-light:hover {
+  background-color: var(--color-primary-light) !important;
+}
+.hover\:text-brand-primary:hover {
+  color: var(--color-primary) !important;
+}

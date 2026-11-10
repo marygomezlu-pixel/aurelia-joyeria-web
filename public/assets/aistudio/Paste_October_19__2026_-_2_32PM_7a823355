@@ -1,0 +1,996 @@
+# PROMPT PROFESIONAL: DESARROLLO DE UNA TIENDA ONLINE DE JOYERÍA DE LUJO
+
+## 1. ROL Y OBJETIVO DEL PROYECTO
+
+Actúa como un equipo senior de desarrollo web, diseño UX/UI, comercio electrónico, branding y marketing digital, especializado en crear tiendas online de joyería elegantes, modernas, seguras, rápidas y adaptables a cualquier dispositivo.
+
+Quiero que desarrolles desde cero un sitio web completo para una joyería online profesional denominada:
+
+**[NOMBRE DE LA JOYERÍA]**
+
+La tienda estará especializada exclusivamente en la venta de joyas y accesorios de joyería.
+
+Productos principales:
+- Anillos de compromiso.
+- Anillos de plata y acero inoxidable.
+- Collares y cadenas.
+- Pulseras elegantes.
+- Aretes y pendientes.
+- Dijes y colgantes.
+- Conjuntos de joyería.
+- Joyas minimalistas.
+- Joyas para ocasiones especiales.
+- Joyas personalizadas con nombres o iniciales.
+- Joyas para cumpleaños, aniversarios y graduaciones.
+- Cajas y estuches elegantes para joyas.
+
+La tienda debe transmitir lujo, elegancia, exclusividad, belleza, confianza y calidad.
+
+El resultado debe parecer una joyería comercial real, con una identidad visual coherente y una experiencia de compra profesional, no una plantilla genérica ni un simple proyecto académico.
+
+## 2. TECNOLOGÍAS
+
+Utiliza preferentemente:
+- HTML5.
+- CSS3.
+- JavaScript moderno.
+- React y Vite si resultan convenientes.
+- Componentes reutilizables.
+- Diseño responsive.
+- Arquitectura organizada y escalable.
+
+Si utilizas React, separa los componentes, las páginas, los datos, los estilos y la lógica de negocio.
+
+Utiliza datos de demostración para los productos y deja preparada la arquitectura para conectar posteriormente una API y una base de datos.
+
+No utilices tecnologías innecesariamente complejas.
+
+## 3. IDIOMA Y CONTENIDO
+
+Toda la interfaz debe estar en español.
+
+Utiliza textos naturales, elegantes y comerciales. No utilices Lorem Ipsum ni contenido genérico sin relación con la joyería.
+
+Todos los botones, menús, filtros, formularios, mensajes, categorías y descripciones deben estar en español.
+
+Utiliza soles peruanos (S/) como moneda.
+
+## 4. IDENTIDAD VISUAL DE LA JOYERÍA
+
+Diseña una identidad visual premium, sofisticada y reconocible.
+
+**Estilo visual:**
+- Lujo contemporáneo.
+- Elegancia minimalista.
+- Sofisticación.
+- Delicadeza.
+- Exclusividad.
+- Diseño editorial de alta gama.
+
+**Paleta de colores recomendada:**
+- Negro elegante: `#171717`.
+- Dorado champán: `#C6A15B`.
+- Marfil: `#F8F5EF`.
+- Beige cálido: `#E9DFCF`.
+- Blanco: `#FFFFFF`.
+- Gris oscuro para textos secundarios: `#626262`.
+
+Utiliza los colores de forma equilibrada. El dorado debe aparecer en detalles, iconos, bordes finos, botones y elementos de identidad, sin saturar la interfaz.
+
+Evita colores infantiles, diseños excesivamente recargados y efectos brillantes exagerados.
+
+**Tipografía:**
+- Una tipografía serif elegante para títulos y nombres de colecciones.
+- Una tipografía sans-serif moderna para menús, precios, formularios y descripciones.
+
+**Fotografía:**
+Utiliza fotografías de alta calidad con anillos, collares, aretes y pulseras sobre fondos elegantes. Las imágenes deben tener iluminación profesional, detalles definidos y una presentación similar a la de una marca de joyería de alta gama.
+
+No uses imágenes de peluches, flores, chocolates, regalos sorpresa ni otros productos ajenos a la joyería.
+
+## 5. LOGOTIPO Y MARCA
+
+Diseña un concepto de logotipo elegante para la joyería.
+
+Debe incluir:
+- Nombre de la marca.
+- Símbolo minimalista relacionado con una gema, un diamante, un anillo o las iniciales de la marca.
+- Versión horizontal.
+- Versión compacta para dispositivos móviles.
+- Aplicación en fondos claros y oscuros.
+
+El logotipo debe integrarse visualmente con el encabezado de la tienda.
+
+No inventes certificaciones, premios ni una historia empresarial real. Si falta el nombre definitivo, utiliza `[NOMBRE DE LA JOYERÍA]` como marcador editable.
+
+## 6. ESTRUCTURA GENERAL DEL SITIO
+
+Crea las siguientes páginas o vistas:
+
+1. Inicio.
+2. Tienda de joyas.
+3. Categorías.
+4. Detalle de producto.
+5. Colecciones.
+6. Novedades.
+7. Ofertas.
+8. Joyas personalizadas.
+9. Carrito de compras.
+10. Finalizar compra.
+11. Nosotros.
+12. Contacto.
+13. Preguntas frecuentes.
+14. Guía de cuidado de joyas.
+15. Guía de tallas de anillos.
+16. Seguimiento de pedidos, preparado para una futura integración.
+17. Política de privacidad.
+18. Términos y condiciones.
+19. Política de envíos, cambios y devoluciones.
+
+La navegación debe ser clara y todas las páginas deben mantener la misma identidad visual.
+
+## 7. ENCABEZADO Y MENÚ
+
+Crea un encabezado elegante y funcional.
+
+**Barra informativa superior:**
+
+“Descubre la elegancia en cada detalle · Envíos disponibles en Perú · Atención personalizada”.
+
+No prometas envíos gratuitos ni tiempos de entrega específicos si no se han configurado.
+
+**Encabezado principal:**
+
+A la izquierda:
+- Logotipo.
+- Nombre de la joyería.
+
+En el centro:
+- Barra de búsqueda con el texto “Busca tu joya ideal...”.
+
+A la derecha:
+- Icono de cuenta.
+- Icono de favoritos.
+- Icono del carrito con contador de productos.
+
+**Menú principal:**
+- Inicio.
+- Tienda.
+- Anillos.
+- Collares.
+- Pulseras.
+- Aretes.
+- Colecciones.
+- Personalizados.
+- Nosotros.
+
+El encabezado debe permanecer visible al desplazarse por la página, sin ocupar demasiado espacio.
+
+En móviles, debe convertirse en un menú hamburguesa funcional.
+
+## 8. HERO PRINCIPAL
+
+Crea una sección inicial visualmente impactante, elegante y minimalista.
+
+Título principal:
+
+**“La belleza está en los detalles.”**
+
+Subtítulo:
+
+“Descubre joyas que expresan tu esencia y acompañan los momentos más especiales de tu vida.”
+
+Botones:
+- “Explorar colección”.
+- “Descubrir novedades”.
+
+Incluye una fotografía editorial de joyería fina: un anillo elegante, un collar delicado o un conjunto de joyas sobre un fondo oscuro o marfil.
+
+La imagen debe tener protagonismo visual y buena calidad.
+
+Añade pequeños detalles dorados, iluminación suave y suficiente espacio en blanco.
+
+No recargues el hero con demasiados elementos.
+
+## 9. CATEGORÍAS DE JOYERÍA
+
+Crea una sección titulada:
+
+**“Encuentra tu próxima joya favorita”**
+
+Incluye tarjetas visuales para:
+
+- Anillos.
+- Collares.
+- Pulseras.
+- Aretes.
+- Dijes.
+- Conjuntos.
+- Joyas personalizadas.
+- Colecciones especiales.
+
+Cada tarjeta debe incluir:
+- Fotografía representativa.
+- Nombre de la categoría.
+- Descripción breve.
+- Enlace funcional para explorar los productos.
+
+Agrega efectos hover discretos, transiciones suaves y un diseño visual uniforme.
+
+## 10. COLECCIONES DESTACADAS
+
+Crea una sección editorial llamada:
+
+**“Colecciones que inspiran”**
+
+Incluye colecciones como:
+
+- Esencia Dorada.
+- Brillo Eterno.
+- Minimalismo.
+- Elegancia Clásica.
+- Momentos Especiales.
+- Colección Personalizada.
+
+Los nombres son propuestas editables para la marca.
+
+Cada colección debe tener una imagen principal, una breve descripción y un botón “Explorar colección”.
+
+No afirmes que las joyas son de oro macizo, plata 925, piedras preciosas naturales o materiales certificados sin especificaciones verificadas.
+
+## 11. PRODUCTOS DESTACADOS
+
+Crea una sección llamada:
+
+**“Joyas favoritas”**
+
+Cada producto debe mostrarse en una tarjeta elegante que incluya:
+- Imagen principal.
+- Nombre.
+- Categoría.
+- Material declarado.
+- Precio en soles.
+- Precio anterior, cuando exista.
+- Porcentaje de descuento, cuando corresponda.
+- Valoración y número de reseñas de demostración.
+- Indicador de disponibilidad.
+- Botón para agregar al carrito.
+- Botón de favoritos.
+- Enlace para ver detalles.
+
+Ejemplos de productos:
+
+- Anillo Aurora.
+- Collar Luz de Luna.
+- Pulsera Elegance.
+- Aretes Destello.
+- Dije Corazón Dorado.
+- Anillo Brillo Eterno.
+- Cadena Minimal.
+- Conjunto Perla.
+- Pulsera Infinito.
+- Collar Inicial Personalizada.
+
+Utiliza precios ficticios y editables, por ejemplo S/ 29.90, S/ 49.90, S/ 79.90, S/ 99.90 y S/ 149.90.
+
+Estos precios son únicamente de demostración y no deben presentarse como cotizaciones reales.
+
+Las valoraciones y reseñas también deben identificarse en el código como datos de demostración.
+
+## 12. CATÁLOGO Y FILTROS
+
+Implementa una página de tienda con búsqueda, filtros y ordenamiento funcionales.
+
+**Búsqueda:**
+- Buscar por nombre.
+- Buscar por categoría.
+- Buscar por colección.
+- Buscar por material declarado.
+
+**Filtros:**
+- Categoría.
+- Rango de precios.
+- Material.
+- Color del acabado.
+- Disponibilidad.
+- Colección.
+
+**Ordenamiento:**
+- Más recientes.
+- Precio de menor a mayor.
+- Precio de mayor a menor.
+- Más vendidos, usando datos de demostración.
+- Mejor valorados, usando datos de demostración.
+
+Los filtros y el ordenamiento deben funcionar realmente mediante JavaScript o React.
+
+Agrega un botón para limpiar filtros y un mensaje cuando no existan resultados.
+
+## 13. DETALLE DE CADA JOYA
+
+Crea una página de detalle completa y profesional.
+
+Debe incluir:
+- Galería de imágenes.
+- Imagen principal ampliable.
+- Miniaturas.
+- Nombre del producto.
+- Precio.
+- Precio anterior y descuento, cuando existan.
+- Material y acabado.
+- Descripción detallada.
+- Características.
+- Disponibilidad.
+- Selector de cantidad.
+- Variantes del producto.
+- Botón de favoritos.
+- Botón “Agregar al carrito”.
+- Botón “Comprar ahora”.
+- Botón “Consultar por WhatsApp”.
+
+Para anillos, incluye un selector de talla y un enlace a la guía de tallas.
+
+Para collares y pulseras, muestra longitud o medidas cuando estén disponibles.
+
+Para aretes, muestra el tipo de cierre y las dimensiones cuando corresponda.
+
+Para joyas personalizadas, incluye:
+- Nombre o iniciales.
+- Texto para grabado, cuando el producto lo permita.
+- Tipo de acabado, si está disponible.
+- Campo para observaciones.
+- Fecha deseada de entrega.
+
+Las opciones deben adaptarse a cada producto. No muestres un selector de talla de anillo en una pulsera ni opciones de grabado en productos que no admitan personalización.
+
+## 14. COMPRA Y CONSULTAS POR WHATSAPP
+
+Implementa un botón funcional:
+
+**“Consultar por WhatsApp”**
+
+Al pulsarlo, genera un mensaje con los datos del producto seleccionado.
+
+Ejemplo:
+
+“Hola, quisiera consultar por esta joya:
+
+Producto: Anillo Aurora  
+Precio mostrado: S/ 79.90  
+Cantidad: 1  
+Talla: [talla seleccionada]  
+Personalización: [si corresponde]
+
+¿Podrían brindarme más información sobre su disponibilidad y entrega?”
+
+Configura el número mediante una variable editable:
+
+`WHATSAPP_NUMBER = "51XXXXXXXXX"`
+
+No inventes un número real. Indica dónde debe colocarse el número comercial definitivo en formato internacional, sin espacios ni signos.
+
+El mensaje debe codificarse correctamente para abrir WhatsApp.
+
+Si no se ha configurado el número, muestra una advertencia clara en lugar de abrir un enlace inválido.
+
+## 15. CARRITO DE COMPRAS
+
+Implementa un carrito funcional que permita:
+
+- Agregar joyas.
+- Eliminar productos.
+- Modificar cantidades.
+- Seleccionar y conservar las variantes elegidas.
+- Mostrar subtotal.
+- Mostrar el costo de envío configurable.
+- Aplicar un cupón de demostración.
+- Calcular descuentos.
+- Calcular el total.
+- Continuar comprando.
+- Pasar al checkout.
+
+Muestra una notificación cuando se agregue un producto.
+
+El carrito debe actualizar el contador del encabezado automáticamente.
+
+Utiliza `localStorage` para conservar el carrito después de actualizar la página.
+
+No permitas cantidades superiores al stock declarado en los datos de demostración.
+
+## 16. FINALIZAR COMPRA
+
+Diseña un checkout claro y profesional.
+
+**Datos del cliente:**
+- Nombres.
+- Apellidos.
+- Teléfono.
+- Correo electrónico.
+
+**Dirección de entrega:**
+- Departamento.
+- Provincia.
+- Distrito.
+- Dirección.
+- Referencia.
+
+**Entrega:**
+- Envío a domicilio.
+- Recojo en tienda, únicamente si se configura una dirección real.
+
+**Detalles adicionales:**
+- Fecha deseada de entrega.
+- Horario preferido.
+- Observaciones del pedido.
+
+**Métodos de pago de demostración:**
+- Yape.
+- Plin.
+- Transferencia bancaria.
+- Tarjeta.
+
+Los métodos de pago deben identificarse como simulados hasta integrar proveedores reales.
+
+No recopiles números completos de tarjetas ni códigos de seguridad en un formulario propio.
+
+Implementa validación de campos y un resumen final del pedido.
+
+Si no existe backend, no afirmes que el pedido se ha registrado de forma permanente. Muestra claramente que el checkout es una demostración y ofrece la opción de preparar un mensaje de pedido para WhatsApp.
+
+## 17. JOYAS PERSONALIZADAS
+
+Crea una página especial titulada:
+
+**“Una joya, una historia única.”**
+
+Descripción:
+
+“Personaliza una joya con detalles que representen tu esencia. Elige las opciones disponibles y crea una pieza especial para ti o para alguien importante.”
+
+Incluye productos personalizables como:
+- Collares con iniciales.
+- Dijes con nombres.
+- Pulseras grabadas.
+- Anillos personalizados, cuando corresponda.
+- Joyas con fechas especiales.
+
+Permite seleccionar únicamente las opciones compatibles con cada producto.
+
+Incluye un formulario de solicitud y un botón para consultar la personalización por WhatsApp.
+
+No prometas grabados, materiales ni técnicas que todavía no se hayan confirmado.
+
+## 18. OFERTAS Y NOVEDADES
+
+Crea una sección llamada:
+
+**“Descubre nuestras novedades”**
+
+Y otra titulada:
+
+**“Detalles especiales, precios especiales”**
+
+Muestra:
+- Precio anterior.
+- Precio actual.
+- Descuento porcentual.
+- Imagen del producto.
+- Fecha de vigencia, cuando esté configurada.
+- Botón para ver la joya.
+
+Los descuentos deben calcularse correctamente.
+
+No inventes una fecha de finalización ni utilices temporizadores falsos para crear urgencia.
+
+## 19. CONFIANZA Y SERVICIO
+
+Crea una sección de cuatro bloques:
+
+**Diseños con personalidad**  
+“Encuentra piezas que acompañen tu estilo.”
+
+**Atención personalizada**  
+“Resolvemos tus consultas para ayudarte a elegir.”
+
+**Compra transparente**  
+“Consulta los materiales, las medidas y las condiciones de cada producto.”
+
+**Cuidado de tus joyas**  
+“Descubre recomendaciones para conservar tus piezas en buen estado.”
+
+No afirmes que los productos están certificados, cuentan con garantía oficial o utilizan materiales preciosos si esa información no está confirmada.
+
+## 20. TESTIMONIOS
+
+Crea una sección titulada:
+
+**“Experiencias que brillan”**
+
+Diseña tarjetas visualmente elegantes con espacio para:
+- Nombre del cliente.
+- Comentario.
+- Valoración.
+- Producto adquirido.
+
+Si utilizas ejemplos ficticios, identifícalos claramente como contenido de demostración y no los presentes como opiniones auténticas de compradores.
+
+La estructura debe permitir incorporar reseñas verificadas en el futuro.
+
+## 21. GUÍA DE CUIDADO Y GUÍA DE TALLAS
+
+Crea dos secciones informativas.
+
+**Guía de cuidado de joyas:**
+- Recomendaciones generales de limpieza.
+- Almacenamiento adecuado.
+- Prevención de rayaduras.
+- Cuidados según el material declarado.
+
+Aclara que las recomendaciones pueden variar según el material y el acabado.
+
+**Guía de tallas de anillos:**
+- Tabla de tallas.
+- Medidas en milímetros.
+- Instrucciones para identificar una talla.
+- Aviso para confirmar la equivalencia de tallas antes de comprar.
+
+No inventes equivalencias universales. Utiliza una tabla editable y señala el sistema de tallas utilizado.
+
+## 22. REDES SOCIALES Y GALERÍA
+
+Crea una sección visual titulada:
+
+**“El arte de los pequeños detalles”**
+
+Incluye una cuadrícula de imágenes de joyería con una presentación editorial.
+
+Agrega enlaces configurables para:
+- Instagram.
+- Facebook.
+- TikTok.
+- WhatsApp.
+
+No inventes perfiles sociales reales. Utiliza variables o enlaces de ejemplo claramente identificados.
+
+## 23. NEWSLETTER
+
+Crea una sección titulada:
+
+**“Sé parte de nuestro universo”**
+
+Texto:
+
+“Recibe novedades, nuevas colecciones y noticias sobre nuestras joyas.”
+
+Incluye:
+- Campo de correo electrónico.
+- Casilla de consentimiento cuando corresponda.
+- Botón “Suscribirme”.
+- Validación del correo.
+- Mensaje de confirmación.
+
+Si no existe backend o un servicio de correo integrado, indica que la suscripción es una simulación y no afirmes que el correo quedó registrado permanentemente.
+
+## 24. PIE DE PÁGINA
+
+Crea un footer completo y elegante.
+
+**Tienda:**
+- Inicio.
+- Catálogo.
+- Anillos.
+- Collares.
+- Pulseras.
+- Aretes.
+- Colecciones.
+- Ofertas.
+
+**Atención al cliente:**
+- Contacto.
+- Preguntas frecuentes.
+- Guía de tallas.
+- Cuidado de joyas.
+- Envíos.
+- Cambios y devoluciones.
+
+**La marca:**
+- Nosotros.
+- Nuestra filosofía.
+- Joyas personalizadas.
+
+**Información legal:**
+- Política de privacidad.
+- Términos y condiciones.
+- Política de envíos.
+- Política de cambios y devoluciones.
+
+**Contacto:**
+- Ciudad y dirección configurables.
+- Teléfono comercial configurable.
+- Correo de contacto configurable.
+
+Copyright:
+
+“© 2026 [NOMBRE DE LA JOYERÍA]. Todos los derechos reservados.”
+
+## 25. DISEÑO RESPONSIVE
+
+El sitio debe adaptarse correctamente a:
+- Móviles de 320 px.
+- Móviles de 375 px.
+- Tablets de 768 px.
+- Portátiles de 1024 px.
+- Pantallas de escritorio de 1440 px o superiores.
+
+En móviles:
+- Menú hamburguesa.
+- Catálogo en una o dos columnas.
+- Fotografías correctamente proporcionadas.
+- Botones cómodos de utilizar.
+- Filtros adaptados.
+- Formularios legibles.
+- Carrito accesible.
+- Imágenes optimizadas.
+
+Evita el desplazamiento horizontal y los elementos cortados.
+
+## 26. EXPERIENCIA DE USUARIO
+
+Implementa interacciones reales:
+- Animaciones suaves.
+- Efectos hover discretos.
+- Transiciones elegantes.
+- Confirmación al agregar productos.
+- Mensajes de error.
+- Indicadores de carga cuando sean necesarios.
+- Estados vacíos del carrito y favoritos.
+- Confirmaciones de formularios.
+- Navegación funcional.
+- Estados visibles al enfocar controles con el teclado.
+
+Prioriza la elegancia, la rapidez y la facilidad de compra.
+
+## 27. ACCESIBILIDAD
+
+Aplica buenas prácticas:
+- HTML semántico.
+- Textos alternativos descriptivos para imágenes.
+- Contraste adecuado.
+- Navegación mediante teclado.
+- Etiquetas asociadas a los formularios.
+- Botones con nombres accesibles.
+- Indicadores de foco visibles.
+- Mensajes de error claros.
+- Compatibilidad con lectores de pantalla.
+
+No utilices el color dorado para textos pequeños si el contraste es insuficiente.
+
+## 28. SEO
+
+Prepara el sitio para posicionamiento en buscadores.
+
+Incluye:
+- Títulos únicos por página.
+- Meta descripciones.
+- Un encabezado H1 principal por página.
+- Jerarquía adecuada de H2 y H3.
+- URLs claras.
+- Textos alternativos.
+- Metadatos para compartir contenido.
+- Datos estructurados de productos cuando corresponda.
+
+Ejemplo de título:
+
+“Joyería online | [NOMBRE DE LA JOYERÍA]”
+
+Ejemplo de descripción:
+
+“Descubre anillos, collares, pulseras, aretes y joyas personalizadas. Explora nuestra colección y encuentra una pieza que refleje tu estilo.”
+
+No prometas características o materiales que no estén confirmados.
+
+## 29. CATÁLOGO DE DATOS
+
+Crea al menos 24 productos de demostración, distribuidos entre las distintas categorías.
+
+Cada producto debe tener una estructura similar a la siguiente:
+
+```js
+{
+  id: 1,
+  nombre: "Anillo Aurora",
+  categoria: "Anillos",
+  coleccion: "Esencia Dorada",
+  precio: 79.90,
+  precioAnterior: null,
+  material: "Acero inoxidable",
+  acabado: "Dorado",
+  descripcion: "Anillo de diseño minimalista.",
+  imagen: "/images/anillo-aurora.webp",
+  stock: 10,
+  tallas: [],
+  personalizable: false,
+  destacado: true
+}
+```
+
+Los materiales, precios, tallas y existencias deben ser datos ficticios editables, no afirmaciones comerciales verificadas.
+
+Incluye categorías variadas y fotografías adecuadas para cada producto.
+
+## 30. FUNCIONALIDADES JAVASCRIPT
+
+Implementa realmente:
+- Búsqueda de productos.
+- Filtros combinables.
+- Ordenamiento.
+- Navegación entre páginas.
+- Carrito.
+- Favoritos.
+- Selección de variantes.
+- Cantidades.
+- Cálculo de subtotal.
+- Cálculo de descuentos.
+- Cálculo de envío configurable.
+- Validación de formularios.
+- Galería de imágenes.
+- Notificaciones.
+- Menú móvil.
+- Checkout de demostración.
+- Generación de pedidos para WhatsApp.
+- Guía de tallas.
+- Persistencia del carrito y favoritos.
+
+No crees botones que solamente sean decorativos.
+
+Cuando una funcionalidad dependa de un servidor, explica qué parte está simulada y qué deberá conectarse posteriormente.
+
+## 31. ARQUITECTURA DEL PROYECTO
+
+Si utilizas React y Vite, organiza el proyecto de manera similar a esta:
+
+```text
+joyeria-online/
+├── public/
+│   └── images/
+├── src/
+│   ├── components/
+│   │   ├── Header.jsx
+│   │   ├── Footer.jsx
+│   │   ├── ProductCard.jsx
+│   │   ├── ProductGrid.jsx
+│   │   ├── CategoryCard.jsx
+│   │   ├── SearchBar.jsx
+│   │   ├── Filters.jsx
+│   │   ├── CartDrawer.jsx
+│   │   └── WhatsAppButton.jsx
+│   ├── pages/
+│   │   ├── Home.jsx
+│   │   ├── Shop.jsx
+│   │   ├── ProductDetail.jsx
+│   │   ├── Collections.jsx
+│   │   ├── CustomJewelry.jsx
+│   │   ├── Cart.jsx
+│   │   ├── Checkout.jsx
+│   │   ├── About.jsx
+│   │   └── Contact.jsx
+│   ├── data/
+│   │   └── products.js
+│   ├── context/
+│   │   └── CartContext.jsx
+│   ├── utils/
+│   ├── styles/
+│   │   └── global.css
+│   ├── App.jsx
+│   └── main.jsx
+├── package.json
+└── README.md
+```
+
+Adapta la estructura si una solución más sencilla permite mantener el código limpio y funcional.
+
+## 32. IMÁGENES Y RECURSOS VISUALES
+
+Utiliza imágenes profesionales relacionadas exclusivamente con joyería.
+
+Prioriza:
+- Fotografías de anillos.
+- Collares.
+- Pulseras.
+- Aretes.
+- Dijes.
+- Conjuntos.
+- Detalles de piedras y acabados.
+
+Todas las imágenes deben tener buena calidad, proporciones coherentes y textos alternativos.
+
+No dejes imágenes rotas ni espacios vacíos sin resolver.
+
+Si una imagen externa falla, utiliza una alternativa local o un placeholder visual elegante.
+
+Optimiza el tamaño de las imágenes para que la página cargue rápidamente.
+
+## 33. ADMINISTRACIÓN FUTURA
+
+Prepara la arquitectura para una futura conexión con un backend y una base de datos que permitan administrar:
+- Productos.
+- Categorías.
+- Materiales.
+- Variantes.
+- Tallas.
+- Inventario.
+- Precios.
+- Promociones.
+- Clientes.
+- Pedidos.
+- Cupones.
+- Imágenes.
+- Reseñas.
+- Datos de envío.
+
+Por ahora utiliza datos simulados.
+
+Documenta claramente qué funcionalidades necesitan backend.
+
+## 34. SEGURIDAD
+
+No almacenes contraseñas, claves privadas ni credenciales de pago en el frontend.
+
+No simules que un pago fue procesado realmente.
+
+No guardes datos personales sensibles innecesarios en `localStorage`.
+
+Las operaciones sensibles, la gestión real de pedidos, los pagos y la autenticación deben implementarse posteriormente mediante un backend seguro.
+
+Valida los datos recibidos en el servidor cuando se integre el backend.
+
+## 35. CÓDIGO LIMPIO Y MANTENIBLE
+
+El código debe:
+- Ser legible y estar organizado.
+- Utilizar nombres descriptivos.
+- Evitar duplicaciones.
+- Separar presentación y lógica.
+- Utilizar componentes reutilizables.
+- Incluir comentarios cuando sean útiles.
+- Evitar dependencias innecesarias.
+- No contener código muerto.
+- Evitar errores en consola.
+- Estar completo y listo para ejecutar.
+
+No entregues archivos con funciones importantes omitidas ni instrucciones del tipo “agrega el resto después”.
+
+## 36. RESULTADO VISUAL ESPERADO
+
+Quiero una tienda online que combine la apariencia de una boutique de joyería de alta gama con la facilidad de uso de un comercio electrónico moderno.
+
+El diseño debe sentirse:
+- Lujoso.
+- Sofisticado.
+- Minimalista.
+- Elegante.
+- Confiable.
+- Comercial.
+- Visualmente coherente.
+- Preparado para crecer.
+
+Las fotografías de joyas deben ser protagonistas. Los espacios, la tipografía, los detalles dorados y las composiciones editoriales deben transmitir exclusividad sin perjudicar la usabilidad.
+
+**Importante:** no quiero una tienda de regalos general. Quiero una joyería, desde el logotipo hasta el checkout, con una identidad visual y comercial exclusivamente dedicada a las joyas.
+
+## 37. PRUEBAS Y CONTROL DE CALIDAD
+
+Antes de finalizar, comprueba:
+- Que todas las páginas se abran correctamente.
+- Que no existan enlaces rotos.
+- Que la búsqueda funcione.
+- Que los filtros funcionen conjuntamente.
+- Que el carrito permita agregar, modificar y eliminar productos.
+- Que los totales sean correctos.
+- Que las variantes se conserven en el carrito.
+- Que los favoritos funcionen.
+- Que el diseño responda a diferentes pantallas.
+- Que los formularios validen los datos.
+- Que el botón de WhatsApp genere el mensaje adecuado.
+- Que las imágenes carguen correctamente.
+- Que no existan errores de JavaScript.
+
+Si una función necesita backend, indica claramente:
+
+“PENDIENTE DE CONEXIÓN AL BACKEND”.
+
+No inventes APIs, credenciales, pagos procesados ni pedidos reales.
+
+## 38. ENTREGA DEL PROYECTO
+
+Entrega:
+
+**A. Estructura completa**
+
+Muestra las carpetas y archivos del proyecto.
+
+**B. Código completo**
+
+Genera todos los archivos necesarios para ejecutar la aplicación.
+
+**C. Instalación paso a paso**
+
+Explica cómo:
+1. Crear el proyecto.
+2. Instalar las dependencias.
+3. Abrirlo en Visual Studio Code.
+4. Ejecutarlo desde la terminal.
+5. Abrirlo en el navegador.
+6. Comprobar que funciona.
+
+**D. Personalización**
+
+Explica cómo cambiar:
+- Nombre de la joyería.
+- Logotipo.
+- Colores.
+- Fotografías.
+- Productos.
+- Materiales.
+- Tallas.
+- Precios.
+- Stock.
+- Número de WhatsApp.
+- Redes sociales.
+- Dirección.
+- Métodos de envío.
+- Métodos de pago.
+
+**E. Documentación**
+
+Incluye un archivo README con los pasos de instalación, ejecución, configuración y mantenimiento.
+
+## 39. FORMA DE TRABAJO
+
+Trabaja como un desarrollador senior.
+
+No intentes construir todas las funcionalidades complejas en una única etapa si eso aumenta el riesgo de errores.
+
+**Primera fase: MVP funcional**
+
+Desarrolla primero:
+- Identidad visual.
+- Encabezado.
+- Menú.
+- Hero.
+- Categorías de joyería.
+- Colecciones.
+- Catálogo de productos.
+- Búsqueda.
+- Filtros.
+- Carrito.
+- Favoritos.
+- WhatsApp.
+- Footer.
+- Diseño responsive.
+
+Comprueba esta versión antes de continuar.
+
+**Segunda fase: ampliación**
+
+Después implementa:
+- Detalle de producto.
+- Guía de tallas.
+- Personalización.
+- Checkout.
+- Formularios.
+- SEO.
+- Optimización.
+- Preparación para backend.
+
+Prioriza siempre:
+
+**Funcionalidad > decoración innecesaria.**
+
+**Usabilidad > efectos excesivos.**
+
+**Calidad visual > cantidad de elementos.**
+
+**Transparencia comercial > afirmaciones no verificadas.**
+
+Comienza creando una tienda de joyería visualmente impresionante, completamente en español, con imágenes atractivas, navegación clara y funcionalidades reales. Entrega el código organizado, ejecutable y documentado.

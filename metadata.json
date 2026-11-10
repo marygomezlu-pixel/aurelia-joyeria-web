@@ -1,0 +1,8 @@
+{
+  "name": "AURELIA Joyería de Lujo",
+  "description": "Tienda online de joyería fina y accesorios de lujo en Perú. Anillos de compromiso, collares, pulseras, aretes y piezas personalizadas en soles (S/).",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
